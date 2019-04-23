@@ -17,11 +17,19 @@ def example():
     print("x", x, "is a", type(x))
 
 def studentCode():
-    print("\nStudent Output")
+    print("\nJeremy's Output")
+
     # section 1
     x = 5
+    print("x", x, "is a", type(x))
+
+    # section 2
+    print()
     y = 3.14
-    z = "a string"
+    y = float(y)
+    print("y", y, "is a", type(y))
+
+    
 
     # print the values for x, y, and z and their types each on a separate line
 
