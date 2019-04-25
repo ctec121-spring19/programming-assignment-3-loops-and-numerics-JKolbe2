@@ -29,6 +29,12 @@ def studentCode():
     y = float(y)
     print("y", y, "is a", type(y))
 
+    #section 3
+    print()
+    z = "a string"
+    z = str(z)
+    print("z", z, "is a", type(z))
+
     
 
     # print the values for x, y, and z and their types each on a separate line
@@ -39,13 +45,19 @@ def studentCode():
 
     y = 9.99
     # convert y to an int and print
+    y=int(y)
+    print(y)
+    print("y", y, "is a", type(y))
+
 
     z = "12.34"
     # print z and its type
     
     # use eval() to convert z to a number and print its value and type
-
-
+    print()
+    eval(z)
+    z=float(z)
+    print("z", z, "is a", type(z))
     print()
 
 example()
